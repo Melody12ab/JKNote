@@ -4,11 +4,70 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>数学院网站</title>
+    <title>科研奖励</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css"/>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F7F7F9;
+        }
+
+        a:link, a:visited, a:hover, a:active {
+            text-decoration: none;
+        }
+
+        .navigation {
+            margin-bottom: 0;
+        }
+
+        .nav-img {
+            /*background-color: #28a4c9;*/
+            margin-top: 0;
+            margin-bottom: 5px;
+            text-align: center;
+            border: 1px groove #31708f;
+        }
+
+        .main-content .news {
+            border: 2px solid #2aabd2;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+        .media-content {
+            border: 1px solid #adadad;
+            padding: 2px;
+        }
+
+        .aside-content h3 span {
+            font-size: 0.2em;
+        }
+
+        .main-content {
+            margin-top: 30px;
+        }
+
+        .main-content h2 {
+            text-align: center;
+        }
+
+        .main-content h4 {
+            font-weight: bold;
+        }
+
+        .main-content .introduction {
+            font-size: large;
+            text-indent: 2em;
+            line-height: 1.5em;
+            word-spacing: 3px;
+        }
+
+        .footer-content {
+            border: 1px dotted #adadad;
+            margin-top: 10px;
+        }
+    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,17 +92,17 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">首页</a></li>
+                    <li><a href="../index.html">首页</a></li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             院系一览 <span class="caret"></span>
                         </a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="academic/academic_introduction.html">学院简介</a></li>
-                            <li><a href="academic/leader_introduction.html">学院领导</a></li>
-                            <li><a href="academic/committee_introduction.html">专门委员会</a></li>
-                            <li><a href="academic/administrative_machinery.html">行政机构</a></li>
-                            <li><a href="academic/teacher_introduction.html">师资队伍</a></li>
+                            <li><a href="academic_introduction.html">学院简介</a></li>
+                            <li><a href="leader_introduction.html">学院领导</a></li>
+                            <li><a href="committee_introduction.html">专门委员会</a></li>
+                            <li><a href="administrative_machinery.html">行政机构</a></li>
+                            <li><a href="teacher_introduction.html">师资队伍</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -65,17 +124,17 @@
                             <li><a href="">智能计算与信息处理教育部重点实验室</a></li>
                         </ul>
                     </li>
-                    <li><a href="xuewei/academic_degree.html">学位点</a></li>
+                    <li><a href="../xuewei/academic_degree.html">学位点</a></li>
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             本科教学 <span class="caret"></span>
                         </a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="benKeJiaoXue/zhuanye.html">本科专业</a></li>
-                            <li><a href="benKeJiaoXue/kechengjianshe.html">课程建设</a></li>
-                            <li><a href="benKeJiaoXue/chengguo.html">教学成果</a></li>
-                            <li><a href="benKeJiaoXue/jiaogaixiangmu.html">教改项目</a></li>
-                            <li><a href="benKeJiaoXue/jiaocaijianshe.html">教材建设</a></li>
+                            <li><a href="../benKeJiaoXue/zhuanye.html">本科专业</a></li>
+                            <li><a href="../benKeJiaoXue/kechengjianshe.html">课程建设</a></li>
+                            <li><a href="../benKeJiaoXue/chengguo.html">教学成果</a></li>
+                            <li><a href="../benKeJiaoXue/jiaogaixiangmu.html">教改项目</a></li>
+                            <li><a href="../benKeJiaoXue/jiaocaijianshe.html">教材建设</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -83,10 +142,10 @@
                             科学研究 <span class="caret"></span>
                         </a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="scientificStudy/keyangaikuang.html">科研概况</a></li>
-                            <li><a href="scientificStudy/keyanxiangmu.html">科研项目</a></li>
-                            <li><a href="scientificStudy/keyanjiangli.html">科研奖励</a></li>
-                            <li><a href="scientificStudy/xueshujiaoliu.html">学术交流</a></li>
+                            <li><a href="keyangaikuang.html">科研概况</a></li>
+                            <li><a href="keyanxiangmu.html">科研项目</a></li>
+                            <li><a href="keyanjiangli.html">科研奖励</a></li>
+                            <li><a href="xueshujiaoliu.html">学术交流</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -97,15 +156,15 @@
                             <li><a href="">群众路线</a></li>
                         </ul>
                     </li>
-                    <li><a href="gongHui/society.html">工会之家</a></li>
+                    <li><a href="../gongHui/society.html">工会之家</a></li>
                     <li><a href="">学生园地</a></li>
                 </ul>
                 <!--<form class="navbar-form navbar-right" role="search">-->
-                    <!--<div class="form-group">-->
-                        <!--<input type="text" class="form-control" placeholder="Search"/>-->
-                    <!--</div>-->
-                    <!--<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>-->
-                    <!--</button>-->
+                <!--<div class="form-group">-->
+                <!--<input type="text" class="form-control" placeholder="Search"/>-->
+                <!--</div>-->
+                <!--<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>-->
+                <!--</button>-->
                 <!--</form>-->
             </div>
         </div>
@@ -121,13 +180,13 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="../images/banner.jpg" alt=""/>
+                        <img src="../../images/banner.jpg" alt=""/>
                     </div>
                     <div class="item">
-                        <img src="../images/banner.jpg" alt=""/>
+                        <img src="../../images/banner.jpg" alt=""/>
                     </div>
                     <div class="item">
-                        <img src="../images/banner.jpg" alt=""/>
+                        <img src="../../images/banner.jpg" alt=""/>
                     </div>
                 </div>
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -196,116 +255,71 @@
                 </form>
             </div>
             <div class="col-lg-8 main-content">
-                <div class="row">
-                    <div class="col-lg-6 notice">
-                        <h3>通知</h3>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <p class="text-danger">[15.03.23]</p>
-                                <span class="glyphicon glyphicon-comment"></span><a href="">招聘启事</a>
-                            </li>
-                            <li class="list-group-item">
-                                <p class="text-danger">[15.03.19]</p><span class="glyphicon glyphicon-comment"></span>
-                                <a href="">湘潭大学数学与计算科学学院2015年硕士研究生复试录取工作方案</a>
-                            </li>
-                            <li class="list-group-item">
-                                <p class="text-danger">[15.03.13]</p><span class="glyphicon glyphicon-comment"></span>
-                                <a href="">关于2015年湖南省普通高等学校教学改革研究项目申报和已立项项目中期检查与结题的...</a>
-                            </li>
-                            <li class="list-group-item">
-                                <p class="text-danger">[15.03.09]</p><span class="glyphicon glyphicon-comment"></span>
-                                <a href="">申报2015年国家自科基金项目的通知</a>
-                            </li>
-                            <li class="list-group-item">
-                                <p class="text-danger">[15.02.09]</p><span class="glyphicon glyphicon-comment"></span>
-                                <a href="">关于申报2015年省教育厅科学研究项目的通知 </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 lecture">
-                        <h3>报告&讲座</h3>
-                        <ul class="list-group">
-                            <list class="list-group-item">
-                                <p class="text-danger">15.01.21</p>
-                                <a href="">韶风名家论坛-反射扩散过程的支撑定理</a>
-                            </list>
-                            <list class="list-group-item">
-                                <p class="text-danger">15.01.07</p>
-                                <a href="">韶风名家论坛</a>
-                            </list>
-                            <list class="list-group-item">
-                                <p class="text-danger">15.01.04</p>
-                                <a href="">韶风名家论坛-Spectral Gap ...</a>
-                            </list>
-                            <list class="list-group-item">
-                                <p class="text-danger">14.12.25</p>
-                                <a href="">韶风名家论坛</a>
-                            </list>
-                            <list class="list-group-item">
-                                <p class="text-danger">14.11.04</p>
-                                <a href="">韶风名家论坛</a>
-                            </list>
-                        </ul>
-                    </div>
+                <h2>科研奖励</h2>
+                <hr/>
+                <div class="jiangli">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr class="bg-info">
+                            <th>获奖项目名称</th>
+                            <th>获奖姓名</th>
+                            <th>获奖等级</th>
+                            <th>获奖时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr class="bg-success">
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr>
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr class="bg-success">
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr>
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr class="bg-success">
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr>
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        <tr class="bg-success">
+                            <td>齐次可列马尔可夫过程的理论</td>
+                            <td>郭青峰、侯振挺、杨向群</td>
+                            <td>全国科学大会上被评为优秀科技成果</td>
+                            <td>1978</td>
+                        </tr>
+                        </tbody>
+
+                    </table>
                 </div>
-                <div class="row">
-                    <div class="news col-lg-12">
-                        <div class="media media-content">
-                            <div class="media-left media-middle">
-                                <a href=""><span class="glyphicon glyphicon-eye-open"></span></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>周勇教授获“高被引科学家奖”</h4>
-
-                                <p class="text-danger">发布时间[14.11.04]</p>
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto,
-                                    asperiores culpa dicta id nemo nesciunt quasi quia reiciendis veniam.
-                                    Alias autem excepturi fuga, molestiae neque odio officiis pariatur tempora!</a>
-                            </div>
-                        </div>
-                        <div class="media media-content">
-                            <div class="media-left media-middle">
-                                <a href=""><img src="../images/title.gif" alt=""/></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>周勇教授获“高被引科学家奖”</h4>
-
-                                <p class="text-danger">发布时间[14.11.04]</p>
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto,
-                                    asperiores culpa dicta id nemo nesciunt quasi quia reiciendis veniam.
-                                    Alias autem excepturi fuga, molestiae neque odio officiis pariatur tempora!</a>
-                            </div>
-                        </div>
-                        <div class="media media-content">
-                            <div class="media-left media-middle">
-                                <a href=""><img src="../images/title.gif" alt=""/></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>周勇教授获“高被引科学家奖”</h4>
-
-                                <p class="text-danger">发布时间[14.11.04]</p>
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto,
-                                    asperiores culpa dicta id nemo nesciunt quasi quia reiciendis veniam.
-                                    Alias autem excepturi fuga, molestiae neque odio officiis pariatur tempora!</a>
-                            </div>
-                        </div>
-                        <div class="media media-content">
-                            <div class="media-left media-middle">
-                                <a href=""><img src="../images/title.gif" alt=""/></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>周勇教授获“高被引科学家奖”</h4>
-
-                                <p class="text-danger">发布时间[14.11.04]</p>
-                                <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto,
-                                    asperiores culpa dicta id nemo nesciunt quasi quia reiciendis veniam.
-                                    Alias autem excepturi fuga, molestiae neque odio officiis pariatur tempora!</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -323,6 +337,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>
