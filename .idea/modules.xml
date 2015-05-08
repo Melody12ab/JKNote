@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Jikexueyuan.iml" filepath="$PROJECT_DIR$/Jikexueyuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathWeb/MathWeb.iml" filepath="$PROJECT_DIR$/MathWeb/MathWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
+    </modules>
+  </component>
+</project>

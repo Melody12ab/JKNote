@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>数学院网站</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <style type="text/css">
+        .content{
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand ">Web兴趣组</a>
+        </div>
+    </div>
+</nav>
+    <div id="container">
+        <div class="content">
+            <h1>Web兴趣组<small>欢迎您的到来</small></h1>
+            <h2>Web兴趣组欢迎 <abbr title="attribute">您的到来</abbr> </h2>
+            <h3>Web兴趣组欢迎您的到来</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque doloribus
+                fuga itaque, maxime modi repellendus similique sunt. Commodi est et expedita iste laborum quam quasi,
+                quis recusandae sint. Necessitatibus.</p>
+            <p>web开发 <mark>兴趣组</mark></p>
+            <p class="text-center">nihao</p>
+
+            <p class="text-left">nihao</p>
+
+            <p class="text-right">nihao</p>
+            <address class="text-center">
+                <strong>web兴趣组</strong><br/>
+                湘潭大学 <br/>
+                湖南省
+                <abbr title="phone">888888</abbr>
+            </address>
+            <ul class="list-unstyled">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            Lorem ipsum dolor sit amet, consectetur
+            <code> adipisicing elit. A animi at deserunt d</code>istinctio eveniet iste laudantium placeat quasi qui
+            reprehenderit repudiandae rerum saepe, sequi sint soluta sunt temporibus ut veritatis.
+            输入 <kbd>cmd</kbd>命令
+            <pre>
+                function(){
+                     alert("fuck!");
+                }
+            </pre>
+
+            <div class="container">
+                <table class="table table-hover ">
+                    <thead>
+                    <tr class="active">
+                        <th>bootstrap表格</th>
+                        <th>bootstrap表格</th>
+                        <th>bootstrap表格</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="info">
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                    </tr>
+                    <tr>
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                    </tr>
+                    <tr>
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                        <td>表格内容，表格内容，表格内容</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <form role="form">
+                <div class="form-group">
+                    <label>用户名</label>
+                    <input type="date" class="form-control" placeholder="userdate"/>
+                </div>
+            </form>
+
+        </div>
+        <button type="button" class="btn btn-danger">btn-danger</button>
+        <button type="button" class="btn btn-info">btn-info</button>
+        <button type="button" class="btn btn-primary">btn-primary</button>
+        <button type="button" class="btn btn-success">btn-success</button>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">下拉菜单</button>
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+            </ul>
+        </div>
+
+        <ul id="mytab" class="nav nav-tabs nav-pills nav-justified" role="tablist">
+            <li role="presentation" class="active"><a href="#">home</a></li>
+            <li role="presentation"><a href="">index</a></li>
+            <li role="presentation" class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">hello
+                <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a href="#" role="menuitem" tabindex="-1">hello1</a></li>
+                    <li role="presentation"><a href="#" role="menuitem" tabindex="-1">hello2</a></li>
+                    <li role="presentation"><a href="#" role="menuitem" tabindex="-1">hello3</a></li>
+                    <li role="presentation"><a href="#" role="menuitem" tabindex="-1">hello4</a></li>
+                    <li role="presentation"><a href="#" role="menuitem" tabindex="-1">hello5</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $("#mytab a").click(function(e){
+        e.preventDefault();
+        $(this).tab("show");
+    })
+</script>
+</body>
+</html>

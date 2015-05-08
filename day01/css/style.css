@@ -1,0 +1,81 @@
+#shadow{
+    text-shadow: 1px 1px 1px #FF0000;/*前两个数字是来指定距离左边和上边的距离的，第三个是清晰度，第四个是颜色*/
+    width: 100px;
+    text-wrap: normal; /*自动换行，需要设置宽度*/
+}
+
+
+/*字体设置*/
+/*
+font-famliy 字体
+font-size  大小
+font-weight 粗细
+*/
+p{
+    font-size: 20px;
+    font-family: fantasy;
+}
+@font-face {
+    font-family: myfont;
+    src: url("url");/*会以链接中的字体作为安全字体*/
+}
+#mydiv{
+    font-family: myfont;
+}
+
+/*链接*/
+/*
+a:link  a:visited(访问后)  a:hover  a:active(点击时刻)
+*/
+a{
+    text-decoration: none;
+    background-color: aquamarine;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+    color: #FF0000;
+}
+a:active{
+    color: blue;
+}
+/*列表
+list-style  list-style-type(空心圆 数字什么的效果) list-style-image(列表前显示自己的图片)*/
+
+/*表格
+border-collapse:collapse 合并边框
+*/
+table{
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table th{
+    background-color: aqua;
+}
+table td{
+    background-color: antiquewhite;
+}
+/*边框
+border-style-type border-color 都可以分解成四个方向的
+css3：border-radius(圆角边框) box-shadow(边框阴影) border-image(边框图片)
+*/
+#border1{
+    border-radius: 10px;
+    width: 100px;
+    background-color: chocolate;
+    text-align: center;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 2px #FF0000;/*依次序为距离左边框 上边框 透明度 和颜色*/
+}
+
+/*外边距合并
+当margin-bottom和margin-top合并的时候算其中大的哪一个
+*/
+/*图片透明效果
+opacity 0-1
+*/

@@ -1,0 +1,54 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2{
+    /*transform: translate(200px,100px); x和y轴上的移动*/
+    /*transform: rotate(180deg);旋转*/
+    /*transform: scale(2,2);缩放 宽 高*/
+    /*transform: skew(20deg,20deg);倾斜 x轴旋转  y轴旋转*/
+    /*matrix是以上几种方式的总和*/
+    transform: rotateX(100deg);
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    transition: width 1s,height 1s,transform 1s;
+}
+.div3:hover{
+    width: 100px;
+    height: 100px;
+    transform: rotate(360deg);
+}
+/*动画*/
+.div4{
+    width: 300px;
+    height: 200px;
+    background-color: darkmagenta;
+    position: relative;
+    animation: anim 4s infinite alternate;
+}
+@keyframes anim{
+    0%{
+        background-color: red;
+        left: 0px;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+    }
+    50%{
+        background-color: aqua;
+        left: 400px;
+    }
+    75%{background-color: darkmagenta;
+        left:200px;}
+    100%{
+        background-color: steelblue;
+        left: 100px;
+    }
+}

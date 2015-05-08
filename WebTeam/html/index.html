@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Melody</title>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading">
+                <div class="heading_nav">
+                    <div class="heading_title">
+                        Melody
+                    </div>
+                    <div class="heading_navbar">
+                        <ul>
+                            <li><a href="#">首页</a></li>
+                            <!--<li><a href="#" onclick="location.assign('http://www.baidu.com')">首页2</a></li>-->
+                            <li><a href="#">技术课程</a></li>
+                            <li><a href="#">博客论坛</a></li>
+                            <li><a href="#">资源分享</a></li>
+                        </ul>
+                    </div>
+                    <div class="heading_img">
+                        <img src="../image/meng.gif">
+                    </div>
+                    <div class="heading_soptlight">
+                        <form>
+                            <input type="text" placeholder="搜索">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="body_title">
+                    <h3>熟悉MathWebTeam</h3>
+                    <p>加入Web开发兴趣组</p>
+                </div>
+                <hr/>
+                <hr/>
+                <div class="body_img">
+                    <img src="../image/meng.gif" alt="萌宠"/>
+                    <!--<img src="../image/pikaqiu.gif" alt="萌宠"/>-->
+                </div>
+            </div>
+        </div>
+        <div class="footing">
+            @MathWebTeam
+            <p id="clock"></p>
+            <script>
+                var mytime=setInterval(function(){
+                    getTime();
+                },1000);
+                function getTime(){
+                    var d=new Date();
+                    var t= d.toLocaleTimeString();
+                    document.getElementById("clock").innerHTML=t;
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color:  #F7F7F9;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+.navigation{
+    margin-bottom: 0;
+}
+.nav-img{
+    /*background-color: #28a4c9;*/
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 1px groove #31708f;
+}
+.main-content .news{
+    border:2px solid #2aabd2;
+    border-radius: 5px;
+    padding: 2px;
+}
+.media-content{
+    border: 1px solid #adadad;
+    padding: 2px;
+}
+.aside-content h3 span{
+    font-size: 0.2em;
+}
+.footer-content{
+    border: 1px dotted #adadad;
+    margin-top: 10px;
+}
